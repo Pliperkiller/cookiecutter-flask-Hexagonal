@@ -28,7 +28,7 @@ Before using this template, make sure you have:
 ### Using the GitHub Repository
 If your template is hosted on GitHub, you can generate a new project by running:
 ```sh
-cookiecutter gh:your-username/your-template-repo
+cookiecutter gh:Pliperkiller/cookiecutter-flask-Hexagonal
 ```
 
 ### Using a Local Copy
@@ -129,7 +129,3 @@ The generated project will have a structure similar to the following:
 ## Contributing
 
 Contributions to improve this template are welcome. Please feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
