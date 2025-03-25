@@ -8,5 +8,5 @@
     "database": ["none","sqlite", "postgres", "mysql"],
     "message_queue": ["none", "rabbitmq", "kafka"],
     "ci_cd": ["none", "github_actions", "gitlab_ci"],
-    "testing_framework": ["pytest", "unittest"]
+    "testing_framework": ["none","pytest", "unittest"]
   }

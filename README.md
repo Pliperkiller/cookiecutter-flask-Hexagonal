@@ -45,10 +45,10 @@ You will be asked to provide several configuration options, such as:
 - `email`
 - `description`
 - `use_docker`
-- Database selection (sqlite, postgres, mysql)
+- Database selection (none,sqlite, postgres, mysql)
 - Message queue selection (none, rabbitmq, kafka)
 - CI/CD selection (none, github_actions, gitlab_ci)
-- Testing framework selection (pytest, unittest)
+- Testing framework selection (none,pytest, unittest)
 
 ## Post-generation Tasks
 
