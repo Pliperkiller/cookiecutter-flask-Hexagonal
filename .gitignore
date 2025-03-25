@@ -1,0 +1,28 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and env files
+venv/
+.env/
+
+# Build artifacts and distribution files
+build/
+dist/
+*.egg-info/
+
+# IDE and editor configuration
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log y temporales
+*.log
+*.tmp
+
+# Cookiecutter cache file (if excists)
+.cookiecutterrc

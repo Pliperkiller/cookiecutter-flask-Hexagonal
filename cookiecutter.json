@@ -1,0 +1,12 @@
+{
+    "project_name": "my_flask_project",
+    "package_name": "my_flask_project",
+    "author": "Your Name",
+    "email": "your.email@example.com",
+    "description": "A Flask project with Hexagonal Architecture",
+    "use_docker": "yes",
+    "database": ["none","sqlite", "postgres", "mysql"],
+    "message_queue": ["none", "rabbitmq", "kafka"],
+    "ci_cd": ["none", "github_actions", "gitlab_ci"],
+    "testing_framework": ["pytest", "unittest"]
+  }

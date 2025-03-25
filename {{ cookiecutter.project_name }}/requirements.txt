@@ -1,0 +1,24 @@
+flask
+pydantic
+dependency-injector
+
+# Base de datos (según la opción seleccionada)
+{% if 'sqlite3' in cookiecutter.database %}sqlite{% endif %}
+{% if 'psycopg2-binary' in cookiecutter.database %}psycopg2{% endif %}
+{% if 'pymysql' in cookiecutter.database %}mysql-connector-python{% endif %}
+sqlalchemy
+alembic
+
+# Mensajería (según la opción seleccionada)
+{% if 'rabbitmq' in cookiecutter.message_queue %}pika{% endif %}
+{% if 'kafka' in cookiecutter.message_queue %}confluent-kafka{% endif %}
+
+# Testing (según la opción seleccionada)
+{% if cookiecutter.testing_framework == 'pytest' %}pytest
+pytest-mock{% endif %}
+
+# Utilidades
+flask-cors
+gunicorn
+loguru
+python-dotenv
