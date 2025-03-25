@@ -1,6 +1,4 @@
-Below is the content for your root `README.md` displayed in a "canvas" style (as a complete file) that you can copy directly into your repository:
 
-```markdown
 # Cookiecutter Template for HEX DDD
 
 This repository is a Cookiecutter template for generating a Flask project based on Hexagonal Architecture and Domain-Driven Design (DDD) principles.
@@ -135,6 +133,3 @@ Contributions to improve this template are welcome. Please feel free to open iss
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-You can now copy this text into a new file named `README.md` in the root of your template repository. This file provides clear instructions on what the template does, how to use it, and how to get started with a generated project.
